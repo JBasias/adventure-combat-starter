@@ -8,7 +8,7 @@ class Room {
   }
 
   getEnemies() {
-    const { World } = require('./world');
+    const { World } = require('./world').default;
     return World.getEnemiesInRoom(this);
   }
 

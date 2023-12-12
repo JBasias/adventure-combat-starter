@@ -1,7 +1,7 @@
 const readline = require('readline');
 
 const { Player } = require('./class/player');
-const { World } = require('./class/world');
+const { World } = require('./class/world').default;
 
 const worldData = require('./data/world-data');
 
